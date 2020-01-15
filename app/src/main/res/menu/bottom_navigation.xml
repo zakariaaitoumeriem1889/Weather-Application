@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gps"
+        android:title="Geolocalisation"
+        android:icon="@drawable/ic_gps_fixed_black_24dp"
+        android:iconTint="@color/light_orange" />
+
+    <item
+        android:id="@+id/city_input"
+        android:title="Ville"
+        android:icon="@drawable/ic_location_city_black_24dp"
+        android:iconTint="@color/light_blue_2" />
+
+</menu>

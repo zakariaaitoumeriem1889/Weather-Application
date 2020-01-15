@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="text" />
+
+    <TableLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:text="Save"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="10dp"
+                android:background="@color/light_green"
+                android:text="Cancel"
+                android:textColor="@android:color/white" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="weather_string">Température</string>
+    <string name="about_string">About</string>
+    <string name="gps">Geolocalisation</string>
+    <string name="string_city">Ville</string>
+</resources>
